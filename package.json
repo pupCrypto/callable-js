@@ -1,6 +1,6 @@
 {
   "name": "callable-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library that allows you to create callable objects using ES6 Proxies and class inheritance",
   "main": "index.js",
   "scripts": {

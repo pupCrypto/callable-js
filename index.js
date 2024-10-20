@@ -3,12 +3,12 @@ class Callable extends Function {
         super();
         return new Proxy(this, {
             apply: (target, thisArg, args) => {
-                return target.calling(...args);
+                return target._calling(...args);
             }
         });
     }
 
-    calling() {
+    _calling() {
         throw new Error("Not implemented");
     }
 }

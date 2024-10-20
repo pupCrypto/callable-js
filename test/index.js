@@ -19,7 +19,7 @@ describe("Callable", function() {
 describe("derived Callable", function() {
     it("should call function of derived class", function() {
         class Derived extends Callable {
-            calling() {
+            _calling() {
                 return "Hello World";
             }
         }
@@ -29,7 +29,7 @@ describe("derived Callable", function() {
     
     it("should call function of derived class with arguments", function() {
         class Derived extends Callable {
-            calling(a, b) {
+            _calling(a, b) {
                 return a + b;
             }
         }
@@ -43,7 +43,7 @@ describe("derived Callable", function() {
                 super();
                 this.b = 2;
             }
-            calling(a) {
+            _calling(a) {
                 return a + this.b;
             }
         }

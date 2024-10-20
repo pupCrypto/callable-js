@@ -1,10 +1,10 @@
 {
   "name": "callable-js",
   "version": "1.0.0",
-  "description": "Class that can make your class callable",
+  "description": "A JavaScript library that allows you to create callable objects using ES6 Proxies and class inheritance",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",

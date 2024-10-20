@@ -1,6 +1,6 @@
 {
   "name": "callable-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript library that allows you to create callable objects using ES6 Proxies and class inheritance",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/pupCrypto/callable-js/issues"
   },
-  "homepage": "https://github.com/pupCrypto/callable-js#readme"
+  "homepage": "https://github.com/pupCrypto/callable-js#readme",
+  "keywords": [
+    "callable",
+    "function",
+    "proxy",
+    "class",
+    "inheritance",
+    "es6"
+  ]
 }

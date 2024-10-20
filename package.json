@@ -1,0 +1,19 @@
+{
+  "name": "callable-js",
+  "version": "1.0.0",
+  "description": "Class that can make your class callable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupCrypto/callable-js.git"
+  },
+  "author": "https://github.com/pupCrypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pupCrypto/callable-js/issues"
+  },
+  "homepage": "https://github.com/pupCrypto/callable-js#readme"
+}
